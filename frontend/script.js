@@ -1,8 +1,7 @@
 const text = document.getElementById("InputBox");
 const list = document.getElementById("TaskList");
 
-const API = "http://localhost:5000";
-
+const API = "https://alpha-810-backend.onrender.com";
 
 // LOAD TASKS
 async function loadTasks() {
